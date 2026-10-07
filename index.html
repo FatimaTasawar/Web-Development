@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Web Development</title>
+
+    <style>
+
+        /* ---------- BODY ---------- */
+
+        body {
+            font-family: "Trebuchet MS", sans-serif;
+            background-color: #f3e8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* ---------- MAIN CONTAINER ---------- */
+
+        .container {
+            width: 90%;
+            margin: 35px auto;
+            background-color: #fffaf5;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px #c4b5d8;
+            overflow: hidden;
+        }
+
+
+        /* ---------- HEADER ---------- */
+
+        .header {
+            background-color: #5b21b6;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        .header h1 {
+            margin: 0 0 15px;
+            font-family: Georgia, serif;
+            font-size: 36px;
+            letter-spacing: 2px;
+            font-style: italic;
+        }
+
+        .header p {
+            margin: 7px;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+
+
+        /* ---------- CONTENT ---------- */
+
+        .content {
+            padding: 35px;
+        }
+
+
+        /* ---------- INTRODUCTION ---------- */
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .intro h2 {
+            color: #6d28d9;
+            margin-bottom: 12px;
+            font-family: Georgia, serif;
+            font-size: 28px;
+        }
+
+        .intro p {
+            color: #6b5b73;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+
+        /* ---------- TABLE ---------- */
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 25px;
+            overflow: hidden;
+            border-radius: 12px;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+
+        /* ---------- TABLE HEADER ---------- */
+
+        th {
+            background-color: #8b5cf6;
+            color: white;
+            padding: 16px;
+            font-family: Georgia, serif;
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+
+
+        /* ---------- TABLE DATA ---------- */
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd0eb;
+            text-align: center;
+            color: #45324f;
+            font-size: 15px;
+        }
+
+
+        /* ---------- ALTERNATE ROWS ---------- */
+
+        tr:nth-child(even) {
+            background-color: #f7f0ff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fffaf5;
+        }
+
+
+        /* ---------- ROW HOVER ---------- */
+
+        tr:hover {
+            background-color: #eadcff;
+        }
+
+
+        /* ---------- VIEW BUTTON ---------- */
+
+        td a {
+            display: inline-block;
+            background-color: #7c3aed;
+            color: white;
+            padding: 9px 18px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-family: Georgia, serif;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        td a:hover {
+            background-color: #db2777;
+            transform: scale(1.05);
+        }
+
+
+        /* ---------- HOME BUTTON ---------- */
+
+        .navigation {
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .navigation a {
+            display: inline-block;
+            background-color: #5b21b6;
+            color: white;
+            padding: 11px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-family: Georgia, serif;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            background-color: #db2777;
+        }
+
+
+        /* ---------- FOOTER ---------- */
+
+        .footer {
+            background-color: #4c1d95;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: Georgia, serif;
+            font-size: 14px;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+
+        <!-- HEADER -->
+
+        <div class="header">
+
+            <h1>Web Technologies</h1>
+
+            <p>YOUR NAME | Fatima Tasawar</p>
+
+            <p>YOUR Registration | FA24-BSE-039-A</p>
+
+        </div>
+
+
+        <!-- CONTENT -->
+
+        <div class="content">
+
+
+            <!-- INTRO -->
+
+            <div class="intro">
+
+                <h2>Course Lectures</h2>
+
+                <p>
+                    Explore the lectures and learn the basic concepts of web development.
+                </p>
+
+            </div>
+
+
+            <!-- LECTURE TABLE -->
+
+            <table>
+
+                <tr>
+                    <th>Lecture No.</th>
+                    <th>Lecture Title</th>
+                    <th>Link</th>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 1</td>
+                    <td>Introduction to Web Technologies</td>
+                    <td>
+                        <a href="lecture1.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 2</td>
+                    <td>HTML Basics</td>
+                    <td>
+                        <a href="lecture2.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 3</td>
+                    <td>HTML Forms and Media</td>
+                    <td>
+                        <a href="lecture3.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 4</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                        <a href="lecture4.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 5</td>
+                    <td>CSS Selectors</td>
+                    <td>
+                        <a href="lecture5.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 6</td>
+                    <td>CSS Box Model and Layout</td>
+                    <td>
+                        <a href="lecture6.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 7</td>
+                    <td>Responsive Web Design</td>
+                    <td>
+                        <a href="lecture7.html">View</a>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>Lecture 8</td>
+                    <td>Flex Model & Grid</td>
+                    <td>
+                        <a href="lecture8.html">View</a>
+                    </td>
+                </tr>
+
+            </table>
+
+
+            <!-- HOME -->
+
+            <div class="navigation">
+
+                <a href="index.html">Home</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+
+        <div class="footer">
+
+            Web Technologies Assignment
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+```

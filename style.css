@@ -1,0 +1,128 @@
+```css
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #f3e8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 35px auto;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px #c4b5d8;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #5b21b6;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.header h1 {
+    margin: 0 0 15px;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.header p {
+    margin: 7px;
+    font-size: 16px;
+}
+
+.content {
+    padding: 35px;
+}
+
+.lecture-title {
+    text-align: center;
+    color: #6d28d9;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.section {
+    background-color: #f7f0ff;
+    border-left: 6px solid #8b5cf6;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 22px;
+    box-shadow: 0 3px 10px #ddd0eb;
+}
+
+.section h3 {
+    color: #5b21b6;
+    font-family: Georgia, serif;
+    margin-top: 0;
+    font-size: 21px;
+}
+
+.section p,
+.section li {
+    color: #45324f;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.section ul {
+    padding-left: 25px;
+}
+
+.code-box {
+    background-color: #2e1065;
+    color: #f5eaff;
+    padding: 18px;
+    border-radius: 10px;
+    font-family: "Courier New", monospace;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+.output-box {
+    background-color: #fff7ed;
+    color: #5b21b6;
+    border: 2px solid #c4b5fd;
+    padding: 18px;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navigation a {
+    display: inline-block;
+    background-color: #5b21b6;
+    color: white;
+    padding: 11px 25px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    background-color: #db2777;
+}
+
+.footer {
+    background-color: #4c1d95;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+```
